@@ -13,18 +13,17 @@ struct SetupAlarm: View {
     
     var body: some View {
         ZStack {
-            Text(ViewModel.alarmTime, style: .time)
-                .font(.title)
-                .fontWeight(.heavy)
-                .foregroundColor(.textColour)
-                .onTapGesture {
-                    withAnimation(.spring(), {
-                        ViewModel.showPicker.toggle()
-                    })
-                }
-            
             if ViewModel.showPicker {
                 VStack {
+//                    Text(ViewModel.alarmTime, style: .time)
+//                        .font(.title)
+//                        .fontWeight(.heavy)
+//                        .foregroundColor(.textColour)
+//                        .onTapGesture {
+//                            withAnimation(.spring(), {
+//                                ViewModel.showPicker.toggle()
+//                            })
+//                        }
                     HStack (spacing: 15) {
                         Spacer()
                         HStack (spacing: 0) {
@@ -56,7 +55,7 @@ struct SetupAlarm: View {
                     TimeSliderView()
                 }
                 .frame(width: ScreenWidth * 0.85)
-                .background(.bGcolor)
+                .background(.mainBG)
                 .cornerRadius(15)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .onTapGesture {
@@ -130,24 +129,24 @@ struct TimeSliderView: View {
         let vector = CGVector(dx: value.location.x, dy: value.location.y)
         let radians = atan2(vector.dy - 20, vector.dx - 20)
         var angle = radians * 180 / .pi
-        ViewModel.angle = Double(angle)
+        if angle < 0 { angle += 360 }
+        ViewModel.angle = angle
         if !ViewModel.changeToMin {
-            ViewModel.angle = Double(30 * Int(round(angle / 30)))
+            ViewModel.angle = Double(30 * Int(round(ViewModel.angle / 30)))
         } else {
             let progress = ViewModel.angle / 360
-            ViewModel.minitues = Int(progress * 60)
+            ViewModel.minitues = max(0, min(59, Int(progress * 60)))
         }
-        
     }
-    
+
     func onChangeEnd(value: DragGesture.Value) {
         if !ViewModel.changeToMin {
-            ViewModel.hour = Int(ViewModel.angle / 30)
+            ViewModel.hour = Int(ViewModel.angle / 30) % 12
             withAnimation {
                 ViewModel.angle = Double(ViewModel.minitues * 6)
                 ViewModel.changeToMin = true
             }
         }
     }
-    
 }
+

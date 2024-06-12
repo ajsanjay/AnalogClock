@@ -29,11 +29,14 @@ struct Remainder: View {
             }
             .padding()*/
             Button(action: {
-                
+                ViewModel.showPicker = true
             }) {
                 RoundButton(iconImge: "plus")
             }
         }
+        .overlay(content: {
+            SetupAlarm(ViewModel: ViewModel)
+        })
     }
     
     func scheduleAlarm(for date: Date) {
