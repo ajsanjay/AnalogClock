@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0D8DF42C157E14003CC955 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8DF32C157E14003CC955 /* Common.swift */; };
+		8D0D8DF72C157EF5003CC955 /* ClockSegmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8DF62C157EF5003CC955 /* ClockSegmentModel.swift */; };
+		8D0D8DF92C157FF6003CC955 /* DashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8DF82C157FF6003CC955 /* DashBoard.swift */; };
+		8D0D8DFC2C158225003CC955 /* ClockOption+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8DFB2C158225003CC955 /* ClockOption+Extension.swift */; };
+		8D0D8DFE2C1584F5003CC955 /* tabButtontype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8DFD2C1584F5003CC955 /* tabButtontype.swift */; };
+		8D0D8E012C158B2F003CC955 /* Remainder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E002C158B2F003CC955 /* Remainder.swift */; };
+		8D0D8E042C158B8C003CC955 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E032C158B8C003CC955 /* StopWatch.swift */; };
+		8D0D8E062C158BAF003CC955 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E052C158BAF003CC955 /* CountDown.swift */; };
+		8D0D8E082C15A3BE003CC955 /* AcessoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E072C15A3BE003CC955 /* AcessoryButton.swift */; };
+		8D0D8E0A2C15A7B8003CC955 /* ClockAppAppDeligate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E092C15A7B8003CC955 /* ClockAppAppDeligate.swift */; };
+		8D0D8E0E2C15A97C003CC955 /* DefaultHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E0D2C15A97C003CC955 /* DefaultHeading.swift */; };
+		8D0D8E102C15ACB7003CC955 /* ClockDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E0F2C15ACB7003CC955 /* ClockDatePicker.swift */; };
+		8D0D8E122C15C80E003CC955 /* DefaultSubHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E112C15C80E003CC955 /* DefaultSubHeading.swift */; };
+		8D0D8E142C15C992003CC955 /* SetupAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E132C15C992003CC955 /* SetupAlarm.swift */; };
+		8D0D8E3A2C196894003CC955 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E392C196894003CC955 /* RoundButton.swift */; };
+		8D0D8E3C2C196A7C003CC955 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E3B2C196A7C003CC955 /* DashboardViewModel.swift */; };
+		8D0D8E3E2C19737A003CC955 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8E3D2C197379003CC955 /* UIView+Extension.swift */; };
+		8D895B1D2C12C8600050ECCD /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B1C2C12C8600050ECCD /* ClockApp.swift */; };
+		8D895B1F2C12C8600050ECCD /* LiveClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B1E2C12C8600050ECCD /* LiveClock.swift */; };
+		8D895B212C12C8620050ECCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D895B202C12C8620050ECCD /* Assets.xcassets */; };
+		8D895B242C12C8620050ECCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D895B232C12C8620050ECCD /* Preview Assets.xcassets */; };
+		8D895B2C2C12C8E30050ECCD /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B2B2C12C8E30050ECCD /* Background.swift */; };
+		8D895B2E2C12CF4F0050ECCD /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B2D2C12CF4F0050ECCD /* SplashScreen.swift */; };
+		8D895B302C12D23C0050ECCD /* StatusText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B2F2C12D23C0050ECCD /* StatusText.swift */; };
+		8D895B332C12D38E0050ECCD /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B322C12D38E0050ECCD /* CircularProgress.swift */; };
+		8D895B352C12D50F0050ECCD /* LargeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B342C12D50F0050ECCD /* LargeText.swift */; };
+		8D895B392C1435480050ECCD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B382C1435480050ECCD /* CircleView.swift */; };
+		8D895B422C1439A50050ECCD /* NeumorphicKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B3B2C1439A50050ECCD /* NeumorphicKit.swift */; };
+		8D895B432C1439A50050ECCD /* SoftInnerShadowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B3C2C1439A50050ECCD /* SoftInnerShadowViewModifier.swift */; };
+		8D895B442C1439A50050ECCD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B3D2C1439A50050ECCD /* ColorExtension.swift */; };
+		8D895B452C1439A50050ECCD /* View+InverseMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B3E2C1439A50050ECCD /* View+InverseMask.swift */; };
+		8D895B462C1439A50050ECCD /* SoftButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B3F2C1439A50050ECCD /* SoftButtonStyle.swift */; };
+		8D895B472C1439A50050ECCD /* SoftOuterShadowViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B402C1439A50050ECCD /* SoftOuterShadowViewModifier.swift */; };
+		8D895B482C1439A50050ECCD /* SoftDynamicToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B412C1439A50050ECCD /* SoftDynamicToggleStyle.swift */; };
+		8D895B4A2C143E750050ECCD /* AnalogClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D895B492C143E750050ECCD /* AnalogClock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D0D8DF32C157E14003CC955 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		8D0D8DF62C157EF5003CC955 /* ClockSegmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockSegmentModel.swift; sourceTree = "<group>"; };
+		8D0D8DF82C157FF6003CC955 /* DashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoard.swift; sourceTree = "<group>"; };
+		8D0D8DFB2C158225003CC955 /* ClockOption+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClockOption+Extension.swift"; sourceTree = "<group>"; };
+		8D0D8DFD2C1584F5003CC955 /* tabButtontype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabButtontype.swift; sourceTree = "<group>"; };
+		8D0D8E002C158B2F003CC955 /* Remainder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remainder.swift; sourceTree = "<group>"; };
+		8D0D8E032C158B8C003CC955 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		8D0D8E052C158BAF003CC955 /* CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDown.swift; sourceTree = "<group>"; };
+		8D0D8E072C15A3BE003CC955 /* AcessoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessoryButton.swift; sourceTree = "<group>"; };
+		8D0D8E092C15A7B8003CC955 /* ClockAppAppDeligate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockAppAppDeligate.swift; sourceTree = "<group>"; };
+		8D0D8E0D2C15A97C003CC955 /* DefaultHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHeading.swift; sourceTree = "<group>"; };
+		8D0D8E0F2C15ACB7003CC955 /* ClockDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockDatePicker.swift; sourceTree = "<group>"; };
+		8D0D8E112C15C80E003CC955 /* DefaultSubHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSubHeading.swift; sourceTree = "<group>"; };
+		8D0D8E132C15C992003CC955 /* SetupAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupAlarm.swift; sourceTree = "<group>"; };
+		8D0D8E392C196894003CC955 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		8D0D8E3B2C196A7C003CC955 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		8D0D8E3D2C197379003CC955 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8D895B192C12C8600050ECCD /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D895B1C2C12C8600050ECCD /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
+		8D895B1E2C12C8600050ECCD /* LiveClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveClock.swift; sourceTree = "<group>"; };
+		8D895B202C12C8620050ECCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D895B232C12C8620050ECCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D895B2B2C12C8E30050ECCD /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		8D895B2D2C12CF4F0050ECCD /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		8D895B2F2C12D23C0050ECCD /* StatusText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusText.swift; sourceTree = "<group>"; };
+		8D895B322C12D38E0050ECCD /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		8D895B342C12D50F0050ECCD /* LargeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeText.swift; sourceTree = "<group>"; };
+		8D895B382C1435480050ECCD /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8D895B3B2C1439A50050ECCD /* NeumorphicKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeumorphicKit.swift; sourceTree = "<group>"; };
+		8D895B3C2C1439A50050ECCD /* SoftInnerShadowViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftInnerShadowViewModifier.swift; sourceTree = "<group>"; };
+		8D895B3D2C1439A50050ECCD /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		8D895B3E2C1439A50050ECCD /* View+InverseMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+InverseMask.swift"; sourceTree = "<group>"; };
+		8D895B3F2C1439A50050ECCD /* SoftButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftButtonStyle.swift; sourceTree = "<group>"; };
+		8D895B402C1439A50050ECCD /* SoftOuterShadowViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftOuterShadowViewModifier.swift; sourceTree = "<group>"; };
+		8D895B412C1439A50050ECCD /* SoftDynamicToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftDynamicToggleStyle.swift; sourceTree = "<group>"; };
+		8D895B492C143E750050ECCD /* AnalogClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D895B162C12C8600050ECCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0D8DF22C157DEA003CC955 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D8DF32C157E14003CC955 /* Common.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8D0D8DF52C157ED4003CC955 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D8DF62C157EF5003CC955 /* ClockSegmentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D0D8DFA2C15820A003CC955 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D8DFB2C158225003CC955 /* ClockOption+Extension.swift */,
+				8D0D8E3D2C197379003CC955 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8D0D8E022C158B6A003CC955 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D8E002C158B2F003CC955 /* Remainder.swift */,
+				8D895B1E2C12C8600050ECCD /* LiveClock.swift */,
+				8D0D8E032C158B8C003CC955 /* StopWatch.swift */,
+				8D0D8E052C158BAF003CC955 /* CountDown.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		8D895B102C12C8600050ECCD = {
+			isa = PBXGroup;
+			children = (
+				8D895B1B2C12C8600050ECCD /* Clock */,
+				8D895B1A2C12C8600050ECCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D895B1A2C12C8600050ECCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D895B192C12C8600050ECCD /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D895B1B2C12C8600050ECCD /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D8DFA2C15820A003CC955 /* Extension */,
+				8D0D8DF22C157DEA003CC955 /* Utilities */,
+				8D895B3A2C14398F0050ECCD /* Neumorphic */,
+				8D895B312C12D37E0050ECCD /* Views */,
+				8D0D8DF52C157ED4003CC955 /* Model */,
+				8D895B2A2C12C88A0050ECCD /* Styles */,
+				8D895B1C2C12C8600050ECCD /* ClockApp.swift */,
+				8D0D8E092C15A7B8003CC955 /* ClockAppAppDeligate.swift */,
+				8D895B2D2C12CF4F0050ECCD /* SplashScreen.swift */,
+				8D0D8DF82C157FF6003CC955 /* DashBoard.swift */,
+				8D0D8E3B2C196A7C003CC955 /* DashboardViewModel.swift */,
+				8D0D8E022C158B6A003CC955 /* Tabs */,
+				8D895B202C12C8620050ECCD /* Assets.xcassets */,
+				8D895B222C12C8620050ECCD /* Preview Content */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		8D895B222C12C8620050ECCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D895B232C12C8620050ECCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D895B2A2C12C88A0050ECCD /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				8D895B2B2C12C8E30050ECCD /* Background.swift */,
+				8D895B2F2C12D23C0050ECCD /* StatusText.swift */,
+				8D895B342C12D50F0050ECCD /* LargeText.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		8D895B312C12D37E0050ECCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D895B322C12D38E0050ECCD /* CircularProgress.swift */,
+				8D895B382C1435480050ECCD /* CircleView.swift */,
+				8D895B492C143E750050ECCD /* AnalogClock.swift */,
+				8D0D8DFD2C1584F5003CC955 /* tabButtontype.swift */,
+				8D0D8E072C15A3BE003CC955 /* AcessoryButton.swift */,
+				8D0D8E0D2C15A97C003CC955 /* DefaultHeading.swift */,
+				8D0D8E112C15C80E003CC955 /* DefaultSubHeading.swift */,
+				8D0D8E0F2C15ACB7003CC955 /* ClockDatePicker.swift */,
+				8D0D8E132C15C992003CC955 /* SetupAlarm.swift */,
+				8D0D8E392C196894003CC955 /* RoundButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8D895B3A2C14398F0050ECCD /* Neumorphic */ = {
+			isa = PBXGroup;
+			children = (
+				8D895B3D2C1439A50050ECCD /* ColorExtension.swift */,
+				8D895B3B2C1439A50050ECCD /* NeumorphicKit.swift */,
+				8D895B3F2C1439A50050ECCD /* SoftButtonStyle.swift */,
+				8D895B412C1439A50050ECCD /* SoftDynamicToggleStyle.swift */,
+				8D895B3C2C1439A50050ECCD /* SoftInnerShadowViewModifier.swift */,
+				8D895B402C1439A50050ECCD /* SoftOuterShadowViewModifier.swift */,
+				8D895B3E2C1439A50050ECCD /* View+InverseMask.swift */,
+			);
+			path = Neumorphic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D895B182C12C8600050ECCD /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D895B272C12C8620050ECCD /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				8D895B152C12C8600050ECCD /* Sources */,
+				8D895B162C12C8600050ECCD /* Frameworks */,
+				8D895B172C12C8600050ECCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = 8D895B192C12C8600050ECCD /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D895B112C12C8600050ECCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8D895B182C12C8600050ECCD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8D895B142C12C8600050ECCD /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D895B102C12C8600050ECCD;
+			productRefGroup = 8D895B1A2C12C8600050ECCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D895B182C12C8600050ECCD /* Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D895B172C12C8600050ECCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D895B242C12C8620050ECCD /* Preview Assets.xcassets in Resources */,
+				8D895B212C12C8620050ECCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D895B152C12C8600050ECCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0D8E3E2C19737A003CC955 /* UIView+Extension.swift in Sources */,
+				8D0D8E3A2C196894003CC955 /* RoundButton.swift in Sources */,
+				8D0D8DFE2C1584F5003CC955 /* tabButtontype.swift in Sources */,
+				8D0D8DF42C157E14003CC955 /* Common.swift in Sources */,
+				8D895B452C1439A50050ECCD /* View+InverseMask.swift in Sources */,
+				8D895B392C1435480050ECCD /* CircleView.swift in Sources */,
+				8D895B432C1439A50050ECCD /* SoftInnerShadowViewModifier.swift in Sources */,
+				8D0D8DF92C157FF6003CC955 /* DashBoard.swift in Sources */,
+				8D0D8DF72C157EF5003CC955 /* ClockSegmentModel.swift in Sources */,
+				8D0D8E122C15C80E003CC955 /* DefaultSubHeading.swift in Sources */,
+				8D895B2E2C12CF4F0050ECCD /* SplashScreen.swift in Sources */,
+				8D0D8E142C15C992003CC955 /* SetupAlarm.swift in Sources */,
+				8D0D8E082C15A3BE003CC955 /* AcessoryButton.swift in Sources */,
+				8D895B442C1439A50050ECCD /* ColorExtension.swift in Sources */,
+				8D895B422C1439A50050ECCD /* NeumorphicKit.swift in Sources */,
+				8D0D8E0A2C15A7B8003CC955 /* ClockAppAppDeligate.swift in Sources */,
+				8D895B472C1439A50050ECCD /* SoftOuterShadowViewModifier.swift in Sources */,
+				8D0D8E062C158BAF003CC955 /* CountDown.swift in Sources */,
+				8D0D8E042C158B8C003CC955 /* StopWatch.swift in Sources */,
+				8D895B332C12D38E0050ECCD /* CircularProgress.swift in Sources */,
+				8D895B1F2C12C8600050ECCD /* LiveClock.swift in Sources */,
+				8D895B462C1439A50050ECCD /* SoftButtonStyle.swift in Sources */,
+				8D895B4A2C143E750050ECCD /* AnalogClock.swift in Sources */,
+				8D895B482C1439A50050ECCD /* SoftDynamicToggleStyle.swift in Sources */,
+				8D0D8DFC2C158225003CC955 /* ClockOption+Extension.swift in Sources */,
+				8D895B352C12D50F0050ECCD /* LargeText.swift in Sources */,
+				8D895B302C12D23C0050ECCD /* StatusText.swift in Sources */,
+				8D0D8E3C2C196A7C003CC955 /* DashboardViewModel.swift in Sources */,
+				8D895B1D2C12C8600050ECCD /* ClockApp.swift in Sources */,
+				8D0D8E102C15ACB7003CC955 /* ClockDatePicker.swift in Sources */,
+				8D895B2C2C12C8E30050ECCD /* Background.swift in Sources */,
+				8D0D8E012C158B2F003CC955 /* Remainder.swift in Sources */,
+				8D0D8E0E2C15A97C003CC955 /* DefaultHeading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D895B252C12C8620050ECCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D895B262C12C8620050ECCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D895B282C12C8620050ECCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = R6G7L23BRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJS.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D895B292C12C8620050ECCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = R6G7L23BRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AJS.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D895B142C12C8600050ECCD /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D895B252C12C8620050ECCD /* Debug */,
+				8D895B262C12C8620050ECCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D895B272C12C8620050ECCD /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D895B282C12C8620050ECCD /* Debug */,
+				8D895B292C12C8620050ECCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D895B112C12C8600050ECCD /* Project object */;
+}
